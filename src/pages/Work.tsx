@@ -32,7 +32,101 @@ const Work = () => {
 
       {/* Project Portfolio Section */}
       <section className="py-20 px-4">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto space-y-8">
+          {/* Web3 for Social Impact Project */}
+          <Card className="p-8 shadow-elegant">
+            <div className="flex-1">
+              <h2 className="text-3xl font-bold text-foreground mb-2">
+                Web3 for Social Impact
+              </h2>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <Badge variant="outline">Web3.0</Badge>
+                <Badge variant="outline">Social Impact</Badge>
+                <Badge variant="outline">Community Platform</Badge>
+                <Badge variant="outline">Tech Ethics</Badge>
+                <Badge variant="outline">Research</Badge>
+              </div>
+            </div>
+
+            <div className="space-y-6">
+              {/* Basic Info */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                <div>
+                  <p className="text-muted-foreground">Course</p>
+                  <p className="text-foreground font-medium">Web3.0 for Social Impact</p>
+                </div>
+                <div>
+                  <p className="text-muted-foreground">Timeline</p>
+                  <p className="text-foreground font-medium">Fall 2025 - Present (Ongoing)</p>
+                </div>
+                <div>
+                  <p className="text-muted-foreground">Team</p>
+                  <p className="text-foreground font-medium">Team of 5</p>
+                </div>
+              </div>
+
+              {/* Project Description */}
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-3 flex items-center gap-2">
+                  <Target className="w-5 h-5 text-primary" />
+                  Project Overview
+                </h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  This ongoing project is the core component of my interdisciplinary Web3.0 for Social Impact course. Our mission is to develop a digital platform that addresses the critical social issue of weak local support networks. The platform will empower residents to initiate help requests, organize community initiatives, and foster trust and collaboration within their neighborhoods. The project is currently in the active ideation phase, where we are synthesizing key learnings from guest lectures and an immersive field trip to Shanghai and Hangzhou visiting companies like Alibaba, Ant Finance and Sense Time.
+                </p>
+              </div>
+
+              {/* Expandable Details */}
+              <Collapsible>
+                <CollapsibleTrigger className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-medium w-full justify-start">
+                  <ChevronDown className="w-5 h-5 transition-transform" />
+                  View Full Project Details
+                </CollapsibleTrigger>
+                
+                <CollapsibleContent className="space-y-6 mt-6">
+                  {/* Key Experience & Learning */}
+                  <div>
+                    <h3 className="text-lg font-semibold text-foreground mb-3 flex items-center gap-2">
+                      <Lightbulb className="w-5 h-5 text-primary" />
+                      Key Experience & Learning
+                    </h3>
+                    <ul className="space-y-3 text-muted-foreground pl-5 list-disc">
+                      <li>
+                        Gained firsthand exposure to a different tech model in China, focused on massive-scale application and integration with public governance
+                      </li>
+                      <li>
+                        Understood the key trade-off between achieving high societal efficiency and maintaining digital autonomy and privacy
+                      </li>
+                      <li>
+                        These insights now guide our project, pushing us to build a community platform that leverages tech for good while prioritizing user control, transparency, and consent
+                      </li>
+                    </ul>
+                  </div>
+
+                  {/* My Role & Contributions */}
+                  <div>
+                    <h3 className="text-lg font-semibold text-foreground mb-3 flex items-center gap-2">
+                      <Users className="w-5 h-5 text-primary" />
+                      My Role & Contributions
+                    </h3>
+                    <ul className="space-y-3 text-muted-foreground pl-5 list-disc">
+                      <li>
+                        <span className="font-medium text-foreground">Research & Problem Definition:</span> Conducting research to address the lack of immediate support networks for local residents
+                      </li>
+                      <li>
+                        <span className="font-medium text-foreground">Insight Synthesis:</span> Synthesizing insights from our field trip to China on tech ethics and AI governance to shape our platform's design principles
+                      </li>
+                      <li>
+                        <span className="font-medium text-foreground">Platform Ideation:</span> Collaborating in the ideation and conceptualization of a Web3.0-inspired platform designed to facilitate community help and collaboration
+                      </li>
+                    </ul>
+                  </div>
+                </CollapsibleContent>
+              </Collapsible>
+            </div>
+          </Card>
+
+          {/* SIDEWLK Project */}
           <Card className="p-8 shadow-elegant">
             <div className="flex items-start gap-4 mb-6">
               <img 
