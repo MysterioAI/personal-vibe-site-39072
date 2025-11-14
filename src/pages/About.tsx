@@ -50,7 +50,7 @@ const About = () => {
               </p>
 
               <p className="text-lg font-medium text-foreground">
-                I'm actively seeking opportunities as a Business Analyst, Project Manager, Scrum Master, or Product Manager—particularly in aviation, where I can combine my technical expertise with my passion for operational excellence and customer-centric innovation.
+                I'm actively seeking opportunities as a Business Analyst, Project Manager, Scrum Master, or Product Manager where I can combine my technical expertise with my passion for operational excellence and customer-centric innovation.
               </p>
             </div>
           </Card>
@@ -130,7 +130,14 @@ const About = () => {
               <div className="flex items-start justify-between mb-3">
                 <div>
                   <h3 className="text-lg font-semibold text-foreground mb-1">
-                    Professional Scrum Master I (PSM I)
+                    <a 
+                      href="https://www.credly.com/badges/c0ec7b24-ef9c-4351-a777-5af41cbcebf6/public_url" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="hover:text-primary transition-colors"
+                    >
+                      Professional Scrum Master I (PSM I)
+                    </a>
                   </h3>
                   <p className="text-sm text-primary">Scrum.org</p>
                 </div>
@@ -145,7 +152,14 @@ const About = () => {
               <div className="flex items-start justify-between mb-3">
                 <div>
                   <h3 className="text-lg font-semibold text-foreground mb-1">
-                    AI Strategy and Governance
+                    <a 
+                      href="https://www.coursera.org/account/accomplishments/verify/H6GTK23NPQSK?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="hover:text-primary transition-colors"
+                    >
+                      AI Strategy and Governance
+                    </a>
                   </h3>
                   <p className="text-sm text-primary">The Wharton School</p>
                 </div>

@@ -10,6 +10,10 @@ import sidewlkSite3 from "@/assets/sidewlk-site-3.jpg";
 import sidewlkFloorplan from "@/assets/sidewlk-floorplan.png";
 import sidewlkTeam from "@/assets/sidewlk-team-new.jpg";
 import sidePresentsLogo from "@/assets/side-presents-logo.png";
+import hkuCrest from "@/assets/hku-crest.jpg";
+import web3Alibaba from "@/assets/web3-alibaba.jpg";
+import web3Temple from "@/assets/web3-temple.jpg";
+import web3Hangzhou from "@/assets/web3-hangzhou.jpg";
 
 const Work = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +29,7 @@ const Work = () => {
             Project Portfolio
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/80 max-w-3xl mx-auto">
-            Some interesting projects I have worked on...
+            Some interesting projects I am currently working / have worked on...
           </p>
         </div>
       </section>
@@ -33,27 +37,63 @@ const Work = () => {
       {/* Project Portfolio Section */}
       <section className="py-20 px-4">
         <div className="max-w-4xl mx-auto space-y-8">
-          {/* Web3 for Social Impact Project */}
+          {/* Tech for Social Good Project */}
           <Card className="p-8 shadow-elegant">
-            <div className="flex-1">
-              <h2 className="text-3xl font-bold text-foreground mb-2">
-                Web3 for Social Impact
-              </h2>
-              <div className="flex flex-wrap gap-2 mb-4">
-                <Badge variant="outline">Web3.0</Badge>
-                <Badge variant="outline">Social Impact</Badge>
-                <Badge variant="outline">Community Platform</Badge>
-                <Badge variant="outline">Tech Ethics</Badge>
-                <Badge variant="outline">Research</Badge>
+            <div className="flex items-start gap-4 mb-6">
+              <img 
+                src={hkuCrest} 
+                alt="HKU logo" 
+                className="w-16 h-16 object-contain flex-shrink-0"
+              />
+              <div className="flex-1">
+                <h2 className="text-3xl font-bold text-foreground mb-2">
+                  Tech for Social Good
+                </h2>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <Badge variant="outline">Web3.0</Badge>
+                  <Badge variant="outline">Social Impact</Badge>
+                  <Badge variant="outline">Community Platform</Badge>
+                  <Badge variant="outline">Tech Ethics</Badge>
+                  <Badge variant="outline">Research</Badge>
+                </div>
               </div>
             </div>
 
             <div className="space-y-6">
+              {/* Image Collage */}
+              <div className="grid grid-cols-3 gap-2 mb-6">
+                <img 
+                  src={web3Alibaba} 
+                  alt="Web3 course at Alibaba" 
+                  className="w-full h-40 object-cover object-center rounded"
+                />
+                <img 
+                  src={web3Temple} 
+                  alt="Web3 course field trip" 
+                  className="w-full h-40 object-cover object-center rounded"
+                />
+                <img 
+                  src={web3Hangzhou} 
+                  alt="Web3 course at Hangzhou" 
+                  className="w-full h-40 object-cover object-center rounded"
+                />
+              </div>
+
               {/* Basic Info */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                 <div>
-                  <p className="text-muted-foreground">Course</p>
-                  <p className="text-foreground font-medium">Web3.0 for Social Impact</p>
+                  <p className="text-muted-foreground">Course & University</p>
+                  <p className="text-foreground font-medium">
+                    <a 
+                      href="https://www.instagram.com/course.updates?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="hover:text-primary transition-colors"
+                    >
+                      Web3.0 for Social Impact
+                    </a>
+                  </p>
+                  <p className="text-foreground font-medium">The University of Hong Kong</p>
                 </div>
                 <div>
                   <p className="text-muted-foreground">Timeline</p>
@@ -170,10 +210,6 @@ const Work = () => {
               {/* Basic Info */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                 <div>
-                  <p className="text-muted-foreground">Client</p>
-                  <p className="text-foreground font-medium">SIDE Presents (Dorchester, Boston)</p>
-                </div>
-                <div>
                   <p className="text-muted-foreground">Course & University</p>
                   <p className="text-foreground font-medium">Strategic Marketing Management Capstone</p>
                   <p className="text-foreground font-medium">Northeastern University</p>
@@ -195,7 +231,14 @@ const Work = () => {
                   Project Overview
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Partnered with SIDE Presents, a community-focused event management company in Dorchester, Boston, to develop a comprehensive brand launch strategy for their new event space, SIDEWLK. The mission was to establish a distinct brand identity separate from the parent company and position SIDEWLK as Boston's next major creative hub.
+                  Partnered with <a 
+                    href="https://www.sidepresents.com/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-primary transition-colors font-medium"
+                  >
+                    SIDE Presents
+                  </a>, a community-focused event management company in Dorchester, Boston, to develop a comprehensive brand launch strategy for their new event space, SIDEWLK. The mission was to establish a distinct brand identity separate from the parent company and position SIDEWLK as Boston's next major creative hub.
                 </p>
               </div>
 
