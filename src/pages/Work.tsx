@@ -8,7 +8,7 @@ import sidewlkSite1 from "@/assets/sidewlk-site-1.jpg";
 import sidewlkSite2 from "@/assets/sidewlk-site-2.jpg";
 import sidewlkSite3 from "@/assets/sidewlk-site-3.jpg";
 import sidewlkFloorplan from "@/assets/sidewlk-floorplan.png";
-import sidewlkTeam from "@/assets/sidewlk-team.png";
+import sidewlkTeam from "@/assets/sidewlk-team-new.jpg";
 import sidePresentsLogo from "@/assets/side-presents-logo.png";
 
 const Work = () => {
