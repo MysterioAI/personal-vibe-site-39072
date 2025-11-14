@@ -59,17 +59,17 @@ const Work = () => {
                 <img 
                   src={sidewlkTeam} 
                   alt="SIDEWLK project team" 
-                  className="w-full h-40 object-cover rounded"
+                  className="w-full h-40 object-cover object-top rounded"
                 />
                 <img 
                   src={sidewlkSite2} 
                   alt="SIDEWLK venue entrance" 
-                  className="w-full h-40 object-cover rounded"
+                  className="w-full h-40 object-cover object-center rounded"
                 />
                 <img 
                   src={sidewlkSite3} 
                   alt="SIDEWLK neighborhood" 
-                  className="w-full h-40 object-cover rounded"
+                  className="w-full h-40 object-cover object-center rounded"
                 />
               </div>
 

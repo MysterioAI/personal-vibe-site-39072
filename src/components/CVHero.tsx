@@ -10,7 +10,7 @@ const CVHero = () => {
           <img
             src={profilePhoto}
             alt="Professional headshot"
-            className="w-48 h-48 rounded-full object-cover mx-auto shadow-hero border-4 border-primary-foreground/20"
+            className="w-48 h-48 rounded-full object-cover object-top mx-auto shadow-hero border-4 border-primary-foreground/20"
           />
           <div className="absolute inset-0 rounded-full bg-gradient-primary opacity-10"></div>
         </div>
