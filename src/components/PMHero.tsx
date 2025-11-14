@@ -12,7 +12,7 @@ const PMHero = () => {
             <img
               src={profilePhoto}
               alt="Ian Chau - Product Manager"
-              className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover mx-auto shadow-hero border-4 border-primary-foreground/20"
+              className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover object-top mx-auto shadow-hero border-4 border-primary-foreground/20"
             />
           </div>
           
