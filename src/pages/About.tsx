@@ -134,7 +134,7 @@ const About = () => {
                       href="https://www.credly.com/badges/c0ec7b24-ef9c-4351-a777-5af41cbcebf6/public_url" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="hover:text-primary transition-colors"
+                      className="text-primary underline decoration-primary/30 hover:decoration-primary transition-colors"
                     >
                       Professional Scrum Master I (PSM I)
                     </a>
@@ -156,7 +156,7 @@ const About = () => {
                       href="https://www.coursera.org/account/accomplishments/verify/H6GTK23NPQSK?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="hover:text-primary transition-colors"
+                      className="text-primary underline decoration-primary/30 hover:decoration-primary transition-colors"
                     >
                       AI Strategy and Governance
                     </a>
