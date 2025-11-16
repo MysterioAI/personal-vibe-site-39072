@@ -85,10 +85,10 @@ const Work = () => {
                   <p className="text-muted-foreground">Course & University</p>
                   <p className="text-foreground font-medium">
                     <a 
-                      href="https://www.instagram.com/course.updates?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
+                      href="https://www.instagram.com/course.updates/" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="hover:text-primary transition-colors"
+                      className="text-primary underline decoration-primary/30 hover:decoration-primary transition-colors"
                     >
                       Web3.0 for Social Impact
                     </a>
@@ -235,7 +235,7 @@ const Work = () => {
                     href="https://www.sidepresents.com/" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="hover:text-primary transition-colors font-medium"
+                    className="text-primary underline decoration-primary/30 hover:decoration-primary transition-colors font-medium"
                   >
                     SIDE Presents
                   </a>, a community-focused event management company in Dorchester, Boston, to develop a comprehensive brand launch strategy for their new event space, SIDEWLK. The mission was to establish a distinct brand identity separate from the parent company and position SIDEWLK as Boston's next major creative hub.
