@@ -39,7 +39,7 @@ const achievements = [
     logo: cathayLogo,
     title: "Cathay Hackathon",
     year: "2024",
-    description: "Participated in the Cathay Hackathon to develop innovative solutions for the aviation industry."
+    description: "Selected among 1,500 applicants to compete in Cathay's flagship 24-hour Hackathon."
   }
 ];
 

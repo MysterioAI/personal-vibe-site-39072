@@ -34,11 +34,11 @@ const About = () => {
               </p>
 
               <p>
-                My journey into product management began with a fascination for how technology transforms industries. Through internships at Airport Authority Hong Kong, AXA, and leading tech companies, I've learned to navigate the crucial intersection between business stakeholders and technical teams—translating strategic vision into actionable product roadmaps.
+                My journey into project management began with a fascination for how technology transforms industries. Through internships at Airport Authority Hong Kong, AXA, and leading tech companies, I've learned to navigate the crucial intersection between business stakeholders and technical teams—translating strategic vision into actionable project roadmaps.
               </p>
 
               <p>
-                What sets me apart is my <strong>AI-native approach to product management</strong>. I don't just understand AI as a buzzword—I've built OCR models, developed RPA solutions with 90% accuracy, and presented AI strategy frameworks to C-level executives. I see AI as a tool to augment decision-making, automate workflows, and unlock new value propositions.
+                What sets me apart is my <strong>AI-native approach to project management</strong>. I don't just understand AI as a buzzword—I've built OCR models, developed RPA solutions with 90% accuracy, and presented AI strategy frameworks to C-level executives. I see AI as a tool to augment decision-making, automate workflows, and unlock new value propositions.
               </p>
 
               <p>
@@ -50,7 +50,7 @@ const About = () => {
               </p>
 
               <p className="text-lg font-medium text-foreground">
-                I'm actively seeking opportunities as a Business Analyst, Project Manager, Scrum Master, or Product Manager where I can combine my technical expertise with my passion for operational excellence and customer-centric innovation.
+                I'm actively seeking opportunities as a Business Analyst, Project Manager, Scrum Master, or Project Manager where I can combine my technical expertise with my passion for operational excellence and customer-centric innovation.
               </p>
             </div>
           </Card>

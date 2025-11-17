@@ -99,9 +99,19 @@ const Work = () => {
                   <p className="text-muted-foreground">Timeline</p>
                   <p className="text-foreground font-medium">Fall 2025 - Present (Ongoing)</p>
                 </div>
-                <div>
-                  <p className="text-muted-foreground">Team</p>
-                  <p className="text-foreground font-medium">Team of 5</p>
+                <div className="flex items-center gap-2">
+                  <div>
+                    <p className="text-muted-foreground">Team</p>
+                    <p className="text-foreground font-medium">Team of 5</p>
+                  </div>
+                  <a
+                    href="/Trip_Reflection.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary text-sm underline decoration-primary/30 hover:decoration-primary transition-colors ml-4"
+                  >
+                    Field Trip Reflection
+                  </a>
                 </div>
               </div>
 
@@ -151,7 +161,7 @@ const Work = () => {
                     </h3>
                     <ul className="space-y-3 text-muted-foreground pl-5 list-disc">
                       <li>
-                        <span className="font-medium text-foreground">Research & Problem Definition:</span> Conducting research to address the lack of immediate support networks for local residents
+                        <span className="font-medium text-foreground">Research & Problem Definition:</span> Conducting research to address the lack of immediate support networks for residents in local neighbourhoods
                       </li>
                       <li>
                         <span className="font-medium text-foreground">Insight Synthesis:</span> Synthesizing insights from our field trip to China on tech ethics and AI governance to shape our platform's design principles
