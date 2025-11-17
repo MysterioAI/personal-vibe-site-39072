@@ -84,16 +84,8 @@ const Work = () => {
                 <div>
                   <p className="text-muted-foreground">Course & University</p>
                   <p className="text-foreground font-medium">
-                    <a 
-                      href="https://www.instagram.com/course.updates/" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-primary underline decoration-primary/30 hover:decoration-primary transition-colors"
-                    >
-                      Web3.0 for Social Impact
-                    </a>
+                    Web3.0 for Social Impact • The University of Hong Kong
                   </p>
-                  <p className="text-foreground font-medium">The University of Hong Kong</p>
                 </div>
                 <div>
                   <p className="text-muted-foreground">Timeline</p>
@@ -106,8 +98,7 @@ const Work = () => {
                   </div>
                   <a
                     href="/Trip_Reflection.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    download
                     className="text-primary text-sm underline decoration-primary/30 hover:decoration-primary transition-colors ml-4"
                   >
                     Field Trip Reflection

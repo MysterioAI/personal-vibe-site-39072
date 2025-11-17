@@ -34,9 +34,9 @@ const PMHero = () => {
           <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-6 border border-primary-foreground/20">
             <div className="flex items-center justify-center mb-2">
               <Briefcase className="w-6 h-6 text-primary-foreground mr-2" />
-              <span className="text-3xl font-bold text-primary-foreground">60+</span>
+              <span className="text-3xl font-bold text-primary-foreground">AI</span>
             </div>
-            <p className="text-primary-foreground/80 text-sm">IT Projects Tracked</p>
+            <p className="text-primary-foreground/80 text-sm">Strategy & Governance</p>
           </div>
 
           <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-6 border border-primary-foreground/20">
@@ -50,9 +50,9 @@ const PMHero = () => {
           <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-6 border border-primary-foreground/20">
             <div className="flex items-center justify-center mb-2">
               <TrendingUp className="w-6 h-6 text-primary-foreground mr-2" />
-              <span className="text-3xl font-bold text-primary-foreground">90%</span>
+              <span className="text-3xl font-bold text-primary-foreground">Agile</span>
             </div>
-            <p className="text-primary-foreground/80 text-sm">Automation Accuracy</p>
+            <p className="text-primary-foreground/80 text-sm">Project Management</p>
           </div>
         </div>
 
