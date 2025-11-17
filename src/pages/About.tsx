@@ -17,7 +17,7 @@ const About = () => {
             About Me
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/80 max-w-3xl mx-auto">
-            Bridging the gap between business vision and technical execution
+            Aspiring Project Manager bridging the gap between business vision and technical execution
           </p>
         </div>
       </section>
@@ -50,7 +50,7 @@ const About = () => {
               </p>
 
               <p className="text-lg font-medium text-foreground">
-                I'm actively seeking opportunities as a Business Analyst, Project Manager, Scrum Master, or Project Manager where I can combine my technical expertise with my passion for operational excellence and customer-centric innovation.
+                I'm actively seeking opportunities as a Business Analyst, Project Manager, or Scrum Master where I can combine my technical expertise with my passion for operational excellence and customer-centric innovation.
               </p>
             </div>
           </Card>
