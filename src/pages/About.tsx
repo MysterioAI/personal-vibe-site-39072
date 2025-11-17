@@ -173,6 +173,27 @@ const About = () => {
         </div>
       </section>
 
+      {/* Personal Interest */}
+      <section className="py-20 px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex items-center justify-center mb-8">
+            <Heart className="w-8 h-8 text-primary mr-3" />
+            <h2 className="text-3xl font-bold text-foreground">Personal Interest</h2>
+          </div>
+
+          <Card className="p-8">
+            <div className="space-y-4 text-muted-foreground">
+              <p>
+                Beyond my professional pursuits, I'm passionate about <strong className="text-foreground">basketball</strong> and <strong className="text-foreground">traveling</strong>. Basketball has taught me the value of teamwork, quick decision-making under pressure, and the importance of continuous practice—skills that translate directly to project management.
+              </p>
+              <p>
+                Traveling allows me to experience diverse cultures and perspectives, broadening my understanding of how different markets and user bases think. These experiences inform my approach to building products and managing projects that serve global audiences.
+              </p>
+            </div>
+          </Card>
+        </div>
+      </section>
+
       {/* Languages & Interests */}
       <section className="py-20 px-4 bg-gradient-subtle">
         <div className="max-w-5xl mx-auto">
