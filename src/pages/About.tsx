@@ -4,6 +4,12 @@ import { Badge } from "@/components/ui/badge";
 import { GraduationCap, Award, Globe, Heart } from "lucide-react";
 import hkuCrest from "@/assets/hku-crest.jpg";
 import northeasternSeal from "@/assets/northeastern-seal.png";
+import basketball1 from "@/assets/basketball-1.jpg";
+import basketball2 from "@/assets/basketball-2.jpg";
+import basketball3 from "@/assets/basketball-3.jpg";
+import travel1 from "@/assets/travel-1.jpg";
+import travel2 from "@/assets/travel-2.jpg";
+import travel3 from "@/assets/travel-3.jpg";
 
 const About = () => {
   return (
@@ -182,13 +188,52 @@ const About = () => {
           </div>
 
           <Card className="p-8">
-            <div className="space-y-4 text-muted-foreground">
-              <p>
-                Beyond my professional pursuits, I'm passionate about <strong className="text-foreground">basketball</strong> and <strong className="text-foreground">traveling</strong>. Basketball has taught me the value of teamwork, quick decision-making under pressure, and the importance of continuous practice—skills that translate directly to project management.
-              </p>
-              <p>
-                Traveling allows me to experience diverse cultures and perspectives, broadening my understanding of how different markets and user bases think. These experiences inform my approach to building products and managing projects that serve global audiences.
-              </p>
+            <div className="space-y-6 text-muted-foreground">
+              <div>
+                <p className="mb-4">
+                  Beyond my professional pursuits, I'm passionate about <strong className="text-foreground">basketball</strong> and <strong className="text-foreground">traveling</strong>. Basketball has taught me the value of teamwork, quick decision-making under pressure, and the importance of continuous practice—skills that translate directly to project management.
+                </p>
+                <div className="grid grid-cols-3 gap-4">
+                  <img 
+                    src={basketball1} 
+                    alt="Basketball game" 
+                    className="w-full h-48 object-cover rounded-lg"
+                  />
+                  <img 
+                    src={basketball2} 
+                    alt="Playing basketball outdoors" 
+                    className="w-full h-48 object-cover rounded-lg"
+                  />
+                  <img 
+                    src={basketball3} 
+                    alt="Basketball court" 
+                    className="w-full h-48 object-cover rounded-lg"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <p className="mb-4">
+                  My passion for travel is driven by a deep curiosity to understand other cultures and connect with new people. I seek out these experiences to broaden my perspective, and they fundamentally inform my approach to building inclusive products and managing projects for global audiences.
+                </p>
+                <div className="grid grid-cols-3 gap-4">
+                  <img 
+                    src={travel1} 
+                    alt="Travel destination" 
+                    className="w-full h-48 object-cover rounded-lg"
+                  />
+                  <img 
+                    src={travel2} 
+                    alt="Mt. Fuji view" 
+                    className="w-full h-48 object-cover rounded-lg"
+                  />
+                  <img 
+                    src={travel3} 
+                    alt="Travel experience" 
+                    className="w-full h-48 object-cover rounded-lg"
+                  />
+                </div>
+              </div>
             </div>
           </Card>
         </div>
