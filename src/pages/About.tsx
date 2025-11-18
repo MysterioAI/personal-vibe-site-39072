@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Navigation from "@/components/Navigation";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -12,6 +13,17 @@ import travel2 from "@/assets/travel-2.jpg";
 import travel3 from "@/assets/travel-3.jpg";
 
 const About = () => {
+  useEffect(() => {
+    if (window.location.hash === '#personal-interest') {
+      setTimeout(() => {
+        const element = document.getElementById('personal-interest');
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 100);
+    }
+  }, []);
+
   return (
     <div className="min-h-screen">
       <Navigation />
@@ -180,7 +192,7 @@ const About = () => {
       </section>
 
       {/* Personal Interest */}
-      <section id="personal-interest" className="py-20 px-4">
+      <section id="personal-interest" className="py-20 px-4 scroll-mt-20">
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center justify-center mb-8">
             <Heart className="w-8 h-8 text-primary mr-3" />
