@@ -63,6 +63,11 @@ const PMHero = () => {
               <ArrowRight className="w-4 h-4 ml-2" />
             </Button>
           </Link>
+          <Link to="/about#personal-interest">
+            <Button size="lg" variant="secondary" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
+              Personal Life
+            </Button>
+          </Link>
           <Link to="/contact">
             <Button size="lg" variant="secondary" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
               Get In Touch
