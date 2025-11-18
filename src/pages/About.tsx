@@ -180,7 +180,7 @@ const About = () => {
       </section>
 
       {/* Personal Interest */}
-      <section className="py-20 px-4">
+      <section id="personal-interest" className="py-20 px-4">
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center justify-center mb-8">
             <Heart className="w-8 h-8 text-primary mr-3" />
